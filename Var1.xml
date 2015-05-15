@@ -22,7 +22,7 @@
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="272">
+              <block type="movement_left" id="391">
                 <next>
                   <block type="robot_delay" id="274" inline="true">
                     <value name="DELAY">
@@ -31,7 +31,7 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_right" id="298">
+                      <block type="movement_left" id="389">
                         <next>
                           <block type="robot_delay" id="299" inline="true">
                             <value name="DELAY">
@@ -49,7 +49,7 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="movement_reverse" id="382">
+                                      <block type="movement_left" id="390">
                                         <next>
                                           <block type="robot_delay" id="383" inline="true">
                                             <value name="DELAY">
